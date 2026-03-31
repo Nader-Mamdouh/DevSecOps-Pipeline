@@ -2,8 +2,6 @@
 
 ![Screenshot 2025-03-04 at 7 16 48 PM](https://github.com/user-attachments/assets/7ed79f9c-9144-4870-accd-500085a15592)
 
-![image](https://github.com/user-attachments/assets/5b2813a5-f493-4665-8964-77359b5be93a)
-
 ## Features
 
 - 🎮 Fully functional Tic Tac Toe game
@@ -12,6 +10,8 @@
 - 🏆 Highlights winning combinations
 - 🔄 Reset game and statistics
 - 📱 Responsive design for all devices
+
+![image](https://github.com/user-attachments/assets/5b2813a5-f493-4665-8964-77359b5be93a)
 
 ## Technologies Used
 
@@ -56,7 +56,7 @@ The game implements the following rules:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/devsecops-demo.git
+   git clone https://github.com/Nader-Mamdouh/DevSecOps-Pipeline.git
    cd devsecops-demo
    ```
 
