@@ -1,5 +1,5 @@
-# Use Node.js 20 Alpine image as the build stage
-FROM node:20-alpine3.20 AS builder
+# Use Node.js 22 Alpine image as the build stage
+FROM node:22-alpine AS builder
 
 RUN apk update && apk upgrade --no-cache
 
