@@ -21,6 +21,8 @@ RUN npm run build
 # Second stage: use nginx to serve the built application
 FROM nginx:alpine AS server
 
+RUN apk update && apk upgrade --no-cache
+
 # Copy the built static files from the builder stage /app/dist -> default nginx static directory
 COPY --from=builder /app/dist /usr/share/nginx/html
 
