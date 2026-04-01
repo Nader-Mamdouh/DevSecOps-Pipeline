@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: tic-tac-toe
-        image: 
+        image: nadermamdouh869/tiktaktoe:5c618c4651c276666f729eafddff1769629dc883
         imagePullPolicy: Always
         ports:
         - containerPort: 80
