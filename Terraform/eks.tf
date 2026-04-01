@@ -7,10 +7,6 @@ module "eks" {
 
   enable_irsa = true
 
-  tags = {
-    cluster = "Nader-EKS"
-  }
-
   vpc_id = module.vpc.vpc_id
 
   eks_managed_node_group_defaults = {
@@ -27,4 +23,9 @@ module "eks" {
       desired_size = 2
     }
   }
+  
+  tags = {
+    cluster = "Nader-EKS"
+  }
+
 }
