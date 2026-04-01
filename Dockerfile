@@ -1,6 +1,8 @@
 # Use Node.js 20 Alpine image as the build stage
 FROM node:20-alpine3.20 AS builder
 
+RUN apk update && apk upgrade --no-cache
+
 # Set the working directory inside the container
 WORKDIR /app
 
